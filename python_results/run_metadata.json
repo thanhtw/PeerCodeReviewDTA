@@ -1,0 +1,44 @@
+{
+  "profile": "original",
+  "input": "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\input-data.xlsx",
+  "input_sha256": "f4e73bd25cc224e46afe53af66841c3599de802e2de9de4b757565f50cc32f91",
+  "n": 73,
+  "excluded_rows": 0,
+  "features": [
+    "R1.C1.Sub",
+    "R1.C2.Sub",
+    "R1.C3.Sub",
+    "R2.C1.Sub",
+    "R2.C2.Sub",
+    "R2.C3.Sub",
+    "R1.Time.To.Start",
+    "R1.Time.To.End",
+    "R1.Dur",
+    "R1.MF",
+    "R2.Time.To.Start",
+    "R2.Time.To.End",
+    "R2.Dur",
+    "R2.MF"
+  ],
+  "references": 500,
+  "seed": 42,
+  "d_power": 1,
+  "spaceH0": "scaledPCA",
+  "n_init": 25,
+  "max_iter": 300,
+  "selected_k": 2,
+  "recommendations": {
+    "Tibs2001SEmax": 2,
+    "firstSEmax": 2,
+    "globalmax": 2,
+    "silhouette": 2
+  },
+  "retained_variance": 0.7542991562173393,
+  "algorithm": "elkan (lloyd for k=1)",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "sklearn": "1.4.2",
+    "scipy": "1.13.1"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "profile": "alternative-corrected",
+  "input": "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\Merge-Data.xlsx",
+  "input_sha256": "5ff944fa3f0b03814d2237d19ccea2c580d89204eabafbdc81c35ddd42af9ce1",
+  "n": 73,
+  "excluded_rows": 0,
+  "features": [
+    "Effort_R1",
+    "Effort_R2",
+    "R1.Dur",
+    "R2.Dur",
+    "R1.Start",
+    "R1.End",
+    "R2.Start",
+    "R2.End",
+    "MF_Ratio_R1",
+    "MF_Ratio_R2"
+  ],
+  "references": 2,
+  "seed": 42,
+  "d_power": 1,
+  "spaceH0": "scaledPCA",
+  "n_init": 25,
+  "max_iter": 300,
+  "algorithm": "elkan (lloyd for k=1)",
+  "selected_k": 2,
+  "recommendations": {
+    "Tibs2001SEmax": 2,
+    "firstSEmax": 2,
+    "globalmax": 3,
+    "silhouette": 2
+  },
+  "retained_variance": 0.6794403105448716
+}

@@ -1,0 +1,24 @@
+{
+  "median": 364.0,
+  "tie_policy": "High > median; low <= median",
+  "density_definition": "(R1_MF_Count + R2_MF_Count) / Effort_Total",
+  "chart_vs_median_ARI": 0.4809849464159126,
+  "legacy_features": [
+    "Effort_R1",
+    "Effort_R1",
+    "R1.Dur",
+    "R2.Dur",
+    "R1.Start",
+    "R1.End",
+    "R2.Start",
+    "R2.End",
+    "MF_Ratio_R1",
+    "MF_Ratio_R2"
+  ],
+  "chart_legacy_refit_ARI": 1.0,
+  "label_version_warning": "Chart labels differ for ten students from Merge-Data.xlsx labels",
+  "sources": {
+    "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\Chart_input_clustering_results_clustered_data_k2.xlsx": "1825b26ce3ec82622ada121595f857384c9daf218750609d4078d8d8e604f606",
+    "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\Merge-Data.xlsx": "5ff944fa3f0b03814d2237d19ccea2c580d89204eabafbdc81c35ddd42af9ce1"
+  }
+}
