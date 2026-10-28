@@ -1,24 +1,33 @@
 {
+  "primary_input": "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\Merge-Data.xlsx",
+  "verification_input": "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\output-cluster-with-score.xlsx",
+  "label_source": "Matching saved Cluster columns in both source workbooks",
+  "clustering_refitted": false,
+  "group_sizes": {
+    "1": 41,
+    "2": 32
+  },
   "median": 364.0,
-  "tie_policy": "High > median; low <= median",
-  "density_definition": "(R1_MF_Count + R2_MF_Count) / Effort_Total",
-  "chart_vs_median_ARI": 0.4809849464159126,
-  "legacy_features": [
-    "Effort_R1",
-    "Effort_R1",
-    "R1.Dur",
-    "R2.Dur",
-    "R1.Start",
-    "R1.End",
-    "R2.Start",
-    "R2.End",
-    "MF_Ratio_R1",
-    "MF_Ratio_R2"
+  "median_high_rule": "Effort_Total > median",
+  "disagreements": 5,
+  "median_agreement": 0.9315068493150684,
+  "ARI": 0.7412534923481089,
+  "density": "(R1_MF_Count + R2_MF_Count) / Effort_Total",
+  "figure_R1_left_y": "Mean_assignment_score_6",
+  "figure_R1_right_y": "Comment_density",
+  "figure_R1_score_columns": [
+    "HW1",
+    "HW3",
+    "HW4",
+    "HW5",
+    "HW6",
+    "HW7"
   ],
-  "chart_legacy_refit_ARI": 1.0,
-  "label_version_warning": "Chart labels differ for ten students from Merge-Data.xlsx labels",
+  "figure_R1_score_definition": "Mean of HW1 and HW3-HW7, matching primary Table 6; HW2 duplicates HW1",
+  "time_units": "Raw recorded units, no conversion; minutes/seconds not asserted",
+  "figure12_error_bars": "Sample standard error, SD / sqrt(n); SD also exported",
   "sources": {
-    "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\Chart_input_clustering_results_clustered_data_k2.xlsx": "1825b26ce3ec82622ada121595f857384c9daf218750609d4078d8d8e604f606",
-    "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\Merge-Data.xlsx": "5ff944fa3f0b03814d2237d19ccea2c580d89204eabafbdc81c35ddd42af9ce1"
+    "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\Merge-Data.xlsx": "5ff944fa3f0b03814d2237d19ccea2c580d89204eabafbdc81c35ddd42af9ce1",
+    "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\output-cluster-with-score.xlsx": "c1449ca032b380285d00a349f792e0aa7a4423d8ce74f74027536b503fc793be"
   }
 }

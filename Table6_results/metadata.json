@@ -1,0 +1,31 @@
+{
+  "sources": [
+    "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\Merge-Data.xlsx",
+    "D:\\02_Submission_Papper\\07_ReviewClassification\\Clustering\\Cluster-Analysis\\output-cluster-with-score.xlsx"
+  ],
+  "cluster_refitted": false,
+  "score_columns": [
+    "HW1",
+    "HW3",
+    "HW4",
+    "HW5",
+    "HW6",
+    "HW7"
+  ],
+  "stored_mean_score_columns": [
+    "HW1",
+    "HW2",
+    "HW3",
+    "HW4",
+    "HW5",
+    "HW6",
+    "HW7"
+  ],
+  "median": 364,
+  "high_effort_rule": "Effort_Total > 364",
+  "regression": "OLS: intercept + raw Effort_Total + I(Cluster=1)",
+  "main_p_method": "Conventional two-sided OLS t test",
+  "confidence_level": 0.95,
+  "CI_method": "b +/- t(0.975, 70) * conventional OLS SE(b)",
+  "Cohen_d_CI_method": "Equal-tailed noncentral-t inversion, pooled-SD independent-group model; fixed assignments"
+}

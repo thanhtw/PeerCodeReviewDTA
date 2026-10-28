@@ -1,7 +1,6 @@
-,,Effort_Total,Effort_Total,Effort_Total,R1.Start,R1.Start,R1.Start,Comment_density,Comment_density,Comment_density
-,,count,mean,median,count,mean,median,count,mean,median
-Effort_stratum,Cluster,,,,,,,,,
-Above median,1,33,511.54545454545456,504.0,33,1383.448484848485,1141.4,33,0.04593298664903486,0.034420289855072464
-Above median,2,3,469.0,459.0,3,435.30999999999995,399.8,3,0.10693676870147457,0.08496732026143791
-At or below median,1,8,271.625,282.0,8,1529.2,1569.4,8,0.034439217389351386,0.03434343434343434
-At or below median,2,29,156.58620689655172,148.0,29,414.55172413793105,382.47,29,0.09846606514555811,0.08888888888888889
+,,Effort_Total,Effort_Total,Effort_Total,Mean_assignment_score_6,Mean_assignment_score_6,Mean_assignment_score_6,R1.Start,R1.Start,R1.Start,Comment_density,Comment_density,Comment_density
+,,count,mean,median,count,mean,median,count,mean,median,count,mean,median
+Effort_stratum,Cluster,,,,,,,,,,,,
+Above median,1,36,508.0,504.0,36,89.01851851851852,92.0,36,1304.4369444444446,1119.6,36,0.05101663515340484,0.042779077178291644
+At or below median,1,5,339.6,345.0,5,86.76666666666667,87.0,5,1033.0539999999999,853.8,5,0.07277546694131742,0.06318681318681318
+At or below median,2,32,156.75,149.5,32,69.84895833333333,71.08333333333334,32,596.5728125,458.4,32,0.08647350917591903,0.07603285216525635
